@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/son"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/son"
+            android:layout_column="0" />
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableRow>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/Play"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/play"
+            android:layout_column="0" />
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/Pause"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/paus"
+            android:layout_column="3" />
+    </TableRow>
+</TableLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vibreur"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/vibreur"
+            android:layout_column="0" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TableRow>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/vibration"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/vibration"
+            android:layout_column="0" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/vib2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/stopvibration"
+            android:layout_column="3" />
+    </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/reset"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/reset"
+        android:layout_column="3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="reset jeu"
+        android:id="@+id/resetjeu"
+        android:layout_column="1"
+        android:textSize="30dp"
+        android:singleLine="false"
+        android:textColorLink="#ffffff"
+        android:textColor="#3d9a08" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rythm"
+            android:id="@+id/ry"
+            android:layout_column="1" />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vibrate"
+            android:id="@+id/vib"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop Vib"
+            android:id="@+id/sv"
+            android:layout_column="3" />
+
+</LinearLayout>
